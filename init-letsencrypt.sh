@@ -6,7 +6,6 @@ staging=1 # Set to 1 if you're testing your setup to avoid hitting request limit
 
 data_path="./data/certbot"
 rsa_key_size=4096
-regex="([^www.].+)"
 
 # root required
 if [ "$EUID" -ne 0 ]; then echo "Please run $0 as root." && exit; fi
